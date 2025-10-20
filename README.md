@@ -11,6 +11,7 @@
 -*Segurança:* O AWS CloudFormation ajuda a garantir que todos os recursos da AWS seja configurados com segurança usando políticas e regras de segurança. Isso ajuda a proteger a infraestrutura de potenciais ameaças à segurança.
 
 ## 📌 Template AWS CLOUDFORMATION:
+![](images/templateaws-cloudFormation.png)
 
 ## Formatos para criação de modelos
  O AWS CloudFormation suporta JSON e YAML como formato para a criaçaõ de seus modelos(Templantes).
