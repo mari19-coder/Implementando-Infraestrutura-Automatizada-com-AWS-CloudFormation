@@ -12,5 +12,5 @@
 
 ## Formatos para criação de modelos
  O AWS CloudFormation suporta JSON e YAML como formato para a criaçaõ de seus modelos(Templantes).
-![JSON](images/codenjson.png)
+![JSON](images/codemjson.png)
 ![YAML](images/codeYAML.png)
