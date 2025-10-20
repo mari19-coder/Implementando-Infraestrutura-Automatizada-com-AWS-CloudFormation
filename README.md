@@ -10,21 +10,21 @@
 
 -*Segurança:* O AWS CloudFormation ajuda a garantir que todos os recursos da AWS seja configurados com segurança usando políticas e regras de segurança. Isso ajuda a proteger a infraestrutura de potenciais ameaças à segurança.
 
+## 📌 Template AWS CLOUDFORMATION:
+
 ## Formatos para criação de modelos
  O AWS CloudFormation suporta JSON e YAML como formato para a criaçaõ de seus modelos(Templantes).
 ![JSON](images/codemjson.png)
 ![YAML](images/codYAML.png)
 
-⚔️ ## Comparativo: AWS CloudFormation vs Terraform
-Característica	AWS CloudFormation	Terraform
-🌐 Compatibilidade	Exclusivo para recursos da AWS	Multi-cloud: AWS, Azure, GCP, e até on-premise
-📝 Linguagem de definição	JSON ou YAML	HCL (HashiCorp Configuration Language), mais legível e intuitivo
-📦 Gerenciamento de estado	Gerenciado automaticamente pela AWS	Requer backend para armazenar o estado (ex: S3, Terraform Cloud)
-🔄 Reutilização de código	Suporte limitado a módulos e reutilização	Forte suporte a módulos e reutilização de configurações
-🧩 Extensibilidade	Limitado ao ecossistema AWS	Pode usar providers para diversos serviços e plataformas
-🛠️ Ferramentas de terceiros	Integração mais restrita	Ampla comunidade e integração com diversas ferramentas DevOps
-🚀 Curva de aprendizado	Mais simples para quem já está imerso no AWS	Pode exigir mais aprendizado, mas oferece maior flexibilidade
-💡 ## Quando usar cada um?
+
+## ⚔️ Comparativo: AWS CloudFormation vs Terraform
+AWS CloudFormation e Terraform são ferramentas de Infraestrutura como Código (IaC) que automatizam a criação e o gerenciamento de recursos de nuvem. Veja abaixo as principais diferenças:
+
+![AWS CloudFomation VS Terradorm](images/Diferen%C3%A7aawseterraform.png)
+
+## 💡 Quando usar cada um?
+
 CloudFormation é ideal se você está 100% dentro do ecossistema AWS e quer aproveitar a integração nativa e segurança gerenciada.
 
 Terraform é a escolha certa se você precisa de flexibilidade multi-cloud, quer reutilizar configurações ou integrar com ferramentas externas.
